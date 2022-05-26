@@ -70,6 +70,11 @@ public class WeekDaysTest {
         WeekDays weekDays = new WeekDays();
         assertEquals(weekDays.getDay(-1), -1);
     }
+    @Test
+    public void negativeValueDay2() {
+        WeekDays weekDays = new WeekDays();
+        assertEquals(weekDays.getDay(-2), -2);
+    }
 
 
     @Test
